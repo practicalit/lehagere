@@ -105,9 +105,11 @@ function Header(props) {
               </div>
               }
               { !getLoggedUser() &&<div className="col-xs-6">
-                <Link to="/login" className="btn btn-outline rounded-pill">
-                  <span style={style.login}>Register | Login</span>
-                </Link>
+                <span className="btn btn-outline rounded-pill">
+                  <Link to="/register" style={style.login}>Register</Link>
+                  <span style={style.login}> | </span>
+                  <Link to="/login" style={style.login}>LogIn</Link>
+                </span>
               </div>
               }
             </div>

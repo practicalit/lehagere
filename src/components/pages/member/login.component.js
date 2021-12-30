@@ -48,7 +48,7 @@ export default function Login(props) {
     <>
       <div className="col-lg-6 py-3 wow zoomIn">
         <div className="img-place">
-          <img src="../assets/img/bg_image_1.png" alt="" />
+          <img src="../assets/img/login.png" alt="" />
         </div>
       </div>
       <div className="col-lg-6 py-3 wow fadeInUp">

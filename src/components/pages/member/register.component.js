@@ -138,7 +138,7 @@ export default function Register(props) {
       </div>
       <div className="col-lg-6 py-3 wow zoomIn">
         <div className="img-place">
-          <img src="../assets/img/bg_image_1.png" alt="" />
+          <img src="../assets/img/register.png" alt="" />
         </div>
       </div>
     </>
